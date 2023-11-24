@@ -1,0 +1,15 @@
+/* Resetting default margin and applying base font styles to the entire body */
+body {
+  margin: 0; /* Setting margin to zero to remove default spacing around the body */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Specifying a stack of system fonts for cross-platform consistency */
+  -webkit-font-smoothing: antialiased; /* Ensuring smooth font rendering on WebKit-based browsers */
+  -moz-osx-font-smoothing: grayscale; /* Ensuring smooth font rendering on macOS */
+}
+
+/* Applying a specific font stack for code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Specifying a stack of monospaced fonts for code elements */
+}

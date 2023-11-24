@@ -1,0 +1,45 @@
+/* Styles for the root element of the application */
+.App {
+  text-align: center;
+}
+
+/* Styles for the application logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none; /* Disabling pointer events for the logo */
+}
+
+/* Media query to handle reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  /* Animation for spinning the application logo */
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Styles for the header of the application */
+.App-header {
+  background-color: #282c34; /* Background color for the header */
+  min-height: 100vh; /* Minimum height of the header (viewport height) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); /* Font size based on viewport units */
+  color: white; /* Text color */
+}
+
+/* Styles for links in the application */
+.App-link {
+  color: #61dafb; /* Link color */
+}
+
+/* Keyframes for the spinning animation of the application logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Initial rotation angle */
+  }
+  to {
+    transform: rotate(360deg); /* Final rotation angle */
+  }
+}
